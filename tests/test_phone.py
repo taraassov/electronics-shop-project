@@ -16,3 +16,4 @@ def test_addition():
     item1 = Item("simens a35", 8000, 6)
     assert phone1 + item1 == 10
     assert phone1 + phone1 == 8
+
