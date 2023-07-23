@@ -30,3 +30,4 @@ class Keyboard(Item, KeyboardLangMixin):
     def __init__(self, name: str, price: float, quantity: int, language: str = 'EN'):
         super().__init__(name, price, quantity)
         self.language = language
+
